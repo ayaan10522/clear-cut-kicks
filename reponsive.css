@@ -1,0 +1,139 @@
+/* small devices */
+
+@media only screen and (max-width: 599px) {
+  .sticky-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80px !important;
+  }
+  .section-title h1 {
+    font-size: 28px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .product-img-block {
+    height: 170px;
+    margin-bottom: 10px;
+  }
+  .single-product {
+    margin-bottom: 15px;
+  }
+  .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
+    margin-left: 0px;
+  }
+  .organic-breadcrumb {
+    padding-top: 0px;
+  }
+  .default-select .current {
+    margin-right: 0;
+    font-weight: 300;
+  }
+  .cart_area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .product_image_area {
+    padding-top: 15px;
+  }
+  .breadcrumb-banner nav a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .s_product_text .card_area .primary-btn {
+    line-height: 24px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .mt-xs-15 {
+    margin-top: 15px;
+  }
+  .carousel-item {
+    height: 180px;
+  }
+  .btn-whatsapp {
+    font-size: 9px !important;
+    text-transform: capitalize !important;
+    background: #4fce5d !important;
+    font-weight: 600 !important;
+    padding: 0 5px;
+  }
+  .navbar-brand {
+    height: 50px;
+    width: 70px;
+  }
+
+
+  /* .............................................................new change start............ */
+  .breadcrumb-banner{
+    display: none!important;
+  }
+  /* span.ti-user {
+    position: absolute;
+    top: 0%;
+    right: 21%;
+} */
+  /* .............................................................new change end............ */
+
+}
+
+/* ===============> iphone 5s/SE <=============== */
+@media (min-width: 320px) and (max-width: 359px) {
+}
+
+/* ===============>   <=============== */
+@media (min-width: 360px) and (max-width: 374px) {
+}
+
+/* ===============> Iphone 6/7/8/X/XS  <=============== */
+
+@media (min-width: 375px) and (max-width: 385px) {
+  .mob-ct {
+    position: relative;
+    left: 0px;
+  }
+}
+
+/* ===============> iphone 6/7/8 plus/XR  <=============== */
+
+@media (min-width: 386px) and (max-width: 414px) {
+  .mob-ct {
+    position: relative;
+    left: 24px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .mob-ct {
+    position: relative;
+    left: 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+}
